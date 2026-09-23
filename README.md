@@ -16,7 +16,7 @@ Projektet finns publicerat via:
 
   - skillnaden mellan git add och git commit är att git add förbereder förändringar som ska göras medans git commit sparar dem permanent.
   - Att använda branches underlättar samarbete mellan flera webbutvecklare, det är även lättare och säkrare att experimentera och göra förändringar som inte direkt påverkar main projektet. Publiceringstjänster har ofta ett limiterat antal ändringar som kah göras varje dag och därör är det bättre att inte verje förändring eller tillagt element publiceras p¨en gång-
-  - När man gör en merge slår versionshanteringsprogrammet ihop historiken och ändringar från en branch med en annan branch.
+  - När man gör en merge slår versionshanteringsprogrammet ihop historiken och ändringar från en branch med huvudprojektet.
   - Att pusha på github innebär att koden sparas på github med netlify öppnar upp din hemsida live på internet.
   - för att exkludera en ny fil i projektet behöver du bara lägga in filnamnet i .gitignore och spara. är det en redan använd fil måste du säga till git att glömma bort filen utan att radera den. Kör git rm --cached kommandot och lägg til filen i .gitignore. gör en git commit -m "stop tracking namn_på_filen"
 
